@@ -29,6 +29,10 @@ p {
     margin-bottom: 0;
 }
 
+img {
+    display: block;
+}
+
 /* Header */
 
 .header {
@@ -42,7 +46,7 @@ p {
 .header-nav {
     align-items: center;
     display: flex;
-    /* margin-right: auto; */
+    margin-right: auto;
 }
 
 .header-logo {
@@ -132,7 +136,7 @@ p {
     padding-bottom: 188px;
 }
 
-.container {
+.container-solutions {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -188,6 +192,12 @@ p {
     padding-bottom: 120px;
 }
 
+.container-advantages {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 .advantages-hidden {
     position: absolute;
     width: 1px;
@@ -237,10 +247,15 @@ p {
 
 .team {
     background-color: #f4f4fd;
-    /* height: 732px; */
+    height: 732px;
     padding-top: 120px;
     padding-bottom: 120px;
-    
+}
+
+.container-team {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .team-title {
@@ -258,7 +273,7 @@ p {
 .team-list {
     display: flex;
     gap: 24px;
-    /*padding-bottom: 120px;*/
+    padding-bottom: 120px;
 }
 
 .employee {
@@ -305,6 +320,12 @@ p {
     /*height: 1240px;*/
     padding-top: 120px;
     padding-bottom: 120px;
+}
+
+.container-portfolio {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .portfolio-title {
@@ -371,6 +392,11 @@ p {
 
 .footers {
     background-color: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.container-footer {
     padding-top: 100px;
     padding-bottom: 100px;
 }
